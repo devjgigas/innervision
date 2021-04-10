@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Montserrat&display=swap');
 body {
     background-color: white;
   }
@@ -6,6 +7,7 @@ h1{
   justify-content: center;
   letter-spacing: 4px;
   font-size: 45px;
+  font-family: 'Dela Gothic One', cursive;
 
 }
 .logo{
@@ -19,6 +21,7 @@ text-align: center;
 text-decoration: none;
 padding:14px;
 border-right: 6px solid #269e54a4;
+font-family: 'Dela Gothic One', cursive;
 }
 /*Add a hover to links*/
 
@@ -48,10 +51,12 @@ nav, li{
 .hero-text{
   display: flex;
   width:90%;
-  padding-top:60px;
+  padding-top:35px;
   padding-left:6%;
   line-height:1.6;
   font-size:18px;
+  font-family: 'Montserrat', sans-serif;
+}
 
 
   
