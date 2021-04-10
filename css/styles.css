@@ -8,6 +8,11 @@ h1{
   font-size: 45px;
 
 }
+.logo{
+  display: flex;
+  margin:0 auto;
+  margin-bottom:50px;
+}
 .main-navbar li{
 display: inline;
 text-align: center;
@@ -43,9 +48,10 @@ nav, li{
 .hero-text{
   display: flex;
   width:90%;
-  padding-top:65px;
-  padding-left:16px;
-  line-height:2.0;
+  padding-top:60px;
+  padding-left:6%;
+  line-height:1.6;
+  font-size:18px;
 
 
   
