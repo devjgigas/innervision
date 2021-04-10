@@ -1,9 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Montserrat&display=swap');
 
 
-body {
-  overflow:hidden;
-}
+
 
 h1 {
   display: flex;
@@ -64,10 +62,9 @@ li:hover{
   height: 350px;
   display: flex;
   margin-top: 50px;
-  
-  top:-5%;
+  top:-35%;
   left:-5%;
-  transform:rotate(3deg);
+  transform:rotate(2deg);
   
 
 }
@@ -75,15 +72,73 @@ li:hover{
 .hero-text {
   display: flex;
   width: 90%;
-  padding: 5%;
+  padding: 8%;
   line-height: 1.6;
+  padding-left:20px;
   font-size: 18px;
   font-family: 'Montserrat', sans-serif;
   margin-left:1.5%;
   transform:rotate(-2deg);
+  background: white;
+
+}
+.classes, .artists{
+  display: inline-block;
+  background-color: lightcoral;
+  padding-top:30px;
+  padding-bottom:50px;
+  margin-top:50px;
+  margin-left:10%;
+  margin-bottom:70px;
+  font-family: 'Montserrat', sans-serif;
+  padding-right:50px;
+  padding-left:50px;
+  line-height: 1.6;
+  width:450px;
+  
+  
+  
+
+  
+}
+.classes h2, .artists h2{
+  font-size:30px;
+  font-weight: 300;
+  font-family: 'Dela Gothic One', cursive;
+  background-color: white;
+  text-align: center;
+  margin-left:1.5%;
+  transform:rotate(6deg);
+  margin-bottom:50px;
+  margin-top:50px;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+
+ 
 
 }
 
+.classes-image{
+  width:70%;
+  display: flex;
+ margin: 0 auto;
+
+ 
+}
+.artists-image{
+  width: 70%;
+  height:325px;
+  
+  display:flex;
+  margin:0 auto;
+}
+.classes p, .artists p{
+  background:white;
+  padding:30px;
+ border-top-right-radius: 50px 20px;
+ font-size:18px;
+ line-height: 1.7;
+}
 
 /*MEDIA QUERY*/
 @media(max-width: 600px) {
