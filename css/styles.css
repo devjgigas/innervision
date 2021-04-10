@@ -5,16 +5,55 @@ h1{
   display:flex;
   justify-content: center;
   letter-spacing: 4px;
-  font-size: 55px;
+  font-size: 45px;
+
 }
 .main-navbar li{
 display: inline;
 text-align: center;
 text-decoration: none;
-padding:4px;
-
+padding:14px;
+border-right: 6px solid #269e54a4;
 }
+/*Add a hover to links*/
+
+
+
 nav, li{
   text-align: center;
   list-style: none;
+
+
+}
+.hero-image{
+  width:50%;
+  
+ 
+  
+  
+  
+}
+.hero-section{
+  background: #269e54a4;
+  height:350px;
+  display: flex;
+ margin-top:50px;
+
+}
+.hero-text{
+  display: flex;
+  width:90%;
+  padding-top:65px;
+  padding-left:16px;
+  line-height:2.0;
+
+
+  
+
+
+  
+  
+
+
+  
 }
