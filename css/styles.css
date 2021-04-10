@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Montserrat&display=swap');
+
+
 body {
     background-color: white;
   }
@@ -8,6 +10,7 @@ h1{
   letter-spacing: 4px;
   font-size: 45px;
   font-family: 'Dela Gothic One', cursive;
+  text-transform: uppercase;
 
 }
 .logo{
@@ -51,20 +54,36 @@ nav, li{
 .hero-text{
   display: flex;
   width:90%;
-  padding-top:35px;
-  padding-left:6%;
+  padding:5%;
   line-height:1.6;
   font-size:18px;
   font-family: 'Montserrat', sans-serif;
+ 
 }
 
 
-  
+/*MEDIA QUERY*/
+@media(max-width: 600px) {
+  p.hero-text{
+    font-size:12px;
 
+  }
+  .hero-section{
+    max-width:400px;
+   max-height:300px;
 
-  
-  
-
-
-  
+  }
+  h1{
+  font-size: 30px;
+  }
+  .main-navbar li{
+    display: block;
+    padding:2px;
+  }
 }
+
+  
+
+
+  
+
